@@ -41,7 +41,7 @@ catkin_package()
 
 catkin_python_setup()
 
-install(FILES launch/hpp_ros.launch
+install(FILES launch/hpp_ros.launch launch/hpp_ros_mesh.launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
   )
 
